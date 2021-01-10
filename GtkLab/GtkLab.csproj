@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GtkSharp" Version="3.22.25.128" />
+    <PackageReference Include="OpenTK" Version="4.4.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1829-pre6" />
+    <PackageReference Include="Xamarin.Forms.Platform.GTK" Version="5.0.0.1829-pre6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GtkDemo\GtkDemo.csproj" />
+  </ItemGroup>
+
+</Project>
